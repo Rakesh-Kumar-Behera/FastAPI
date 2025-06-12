@@ -39,6 +39,10 @@ class Patient(BaseModel):
             raise ValueError('Age should be between 0 and 100')
         
 
+# field_validator can validate only a signle field at a time,
+# agar multiple fields ko validate karna hai to humein model_validator use karna padega,
+# example - agar koi patient ka age 60 se upar hai to contact_details mein ek emergency contact number hona chahiye, --> isi case main hum field validator use nahi kar sakte
+
 
 
 # field_validator - kisi bhi field pe custom data validation and transformation apply karne ke liye use kar sakte hain, 

@@ -1,6 +1,6 @@
 {
   "P001": {
-    "name": "Ananya Sharma",
+    "name": "Ananya Behera",
     "city": "Guwahati",
     "age": 28,
     "gender": "female",
@@ -48,5 +48,25 @@
     "weight": 75,
     "bmi": 31.22,
     "verdict": "Obese"
+  },
+  "P007": {
+    "name": "John cena",
+    "city": "New York",
+    "age": 30,
+    "gender": "male",
+    "height": 1.8,
+    "weight": 80.0,
+    "bmi": 24.69,
+    "verdict": "Normal weight"
+  },
+  "P006": {
+    "name": "John Snow",
+    "city": "Hyderabad",
+    "age": 29,
+    "gender": "male",
+    "height": 1.73,
+    "weight": 32.5,
+    "bmi": 10.86,
+    "verdict": "Underweight"
   }
 }
